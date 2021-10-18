@@ -12,9 +12,13 @@
 </head>
 
 <body>
-    <header>
-        <h1>Svårdödade växter för nybörjare</h1>
-    </header>
+    <div class='menu'>
+        <header>
+            <div class='menu_item'>
+                <h1>Svårdödade växter för plantmördare</h1>
+        </header>
+    </div>
+    </div>
 
     <nav>
         <ul>
