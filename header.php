@@ -6,14 +6,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $title; ?></title> <!-- kan man eka sin titel? egen sida för variabler? -->
+    <title>Växtgenrator</title>
     <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <header>
-        <h1><?php echo $title; ?></h1>
+        <h1>Svårdödade växter för nybörjare</h1>
     </header>
 
     <nav>
