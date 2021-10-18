@@ -4,9 +4,9 @@
 
 require __DIR__ . '/data.php';
 
-foreach ($plants as $plant) {
-    echo "$plant  <br>";
-}
+$rand_val = array_rand($plants, 1);
+
+echo $plants[$rand_val];
 
 
 ?>

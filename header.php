@@ -19,9 +19,3 @@
         </header>
     </div>
     </div>
-
-    <nav>
-        <ul>
-            <li><a href="index.php">Start</a></li>
-        </ul>
-    </nav>
