@@ -1,7 +1,7 @@
 <?php __DIR__ . '/footer.php'; ?>
 
 <footer>
-    <p>Växtväljare</p><?php echo date("Y"); ?>
+    <p>Växtväljare <?= date("Y"); ?></p>
 </footer>
 </body>
 

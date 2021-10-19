@@ -2,44 +2,76 @@
 
 $plants = [
     [
+        'id' => '0',
         'name' => 'Ampellilja',
         'image' => 'images/ampellilja.jpeg',
         'latName' => 'Chlorophytum',
+        'water' => 'vattna rikligt',
+        'light' => 'trivs ljust till lätt skuggigt',
+        'poison' => 'ej giftig',
     ],
     [
+        'id' => '1',
         'name' => 'Fredskalla',
         'image' => 'images/fredskalla.jpeg',
         'latName' => 'Spathiphyllum',
+        'water' => 'håll jorden fuktig',
+        'light' => 'trivs både ljust och mörkt',
+        'poison' => 'irriterande växtsaft',
     ],
     [
+        'id' => '2',
         'name' => 'Kaktus',
         'image' => 'images/kaktusar.jpeg',
         'latName' => 'Cactaceae',
+        'water' => 'vattna sällan',
+        'light' => 'trivs ljust, klarar direkt solljus',
+        'poison' => 'ogiftig men svårtuggad',
     ],
     [
+        'id' => '3',
         'name' => 'Porslinsblomma',
         'image' => 'images/porslinsblomma.jpeg',
         'latName' => 'Hoya carnosa',
+        'water' => 'fuktig jord vid blomning, annars vattna sparsamt',
+        'light' => 'trivs ljust, men ej i direkt solljus i söderläge',
+        'poison' => 'ogiftig',
     ],
     [
+        'id' => '4',
         'name' => 'Gullranka',
         'image' => 'images/gullranka.jpeg',
         'latName' => 'Epipremnum aureum',
+        'water' => 'låt jorden torka mellan vattningar',
+        'light' => 'mörkt till ljust, men ej i direkt solljus',
+        'poison' => 'irriterande växtsaft',
     ],
     [
+        'id' => '5',
         'name' => 'Garderobsblomma',
         'image' => 'images/garderobsblomma.jpeg',
         'latName' => 'Zamioculcas zamiifolia',
+        'water' => 'vattna sparsamt',
+        'light' => 'trivs ej i direkt solljus',
+        'poison' => 'starkt irriterande växtsaft',
     ],
     [
+        'id' => '6',
         'name' => 'Elefantöra',
         'image' => 'images/elefantöra.jpeg',
         'latName' => 'Pilea peperomioides',
+        'water' => 'låt jorden torka upp mellan vattningarna',
+        'light' => 'trivs halvljust, undvik direkt sol',
+        'poison' => 'ogiftig',
     ],
     [
+        'id' => '7',
         'name' => 'Svärmorstunga',
         'image' => 'images/svärmorstunga.jpeg',
         'latName' => 'Sansevieria trifasciata',
+        'water' => 'vattna sparsamt',
+        'light' => 'trivs både skuggigt och soligt, växer bättre när den står ljust',
+        'poison' => 'irriterande växtsaft',
     ],
 ];
 
@@ -54,45 +86,24 @@ $flowers = [
     'Svärmorstunga' => 'blommar inte',
 ];
 
-$plantFacts = [
-    'ampellilja' => [
-        'vattna rikligt',
-        'trivs ljust till lätt skuggigt',
-        'ej giftig'
-    ],
-    'fredskalla' => [
-        'håll jorden fuktig',
-        'trivs både ljust och mörkt',
-        'irriterande växtsaft',
-    ],
-    'kaktus' => [
-        'vattna sällan',
-        'trivs ljust, klarar direkt solljus',
-        'ogiftig men svårtuggad',
-    ],
-    'porslinsblomma' => [
-        'vid blomning håll jorden fuktig, annars vattna sparsamt',
-        'trivs ljust, men ej i direkt solljus i söderläge',
-        'ogiftig',
-    ],
-    'gullranka' => [
-        'låt jorden torka mellan vattningar',
-        'mörkt till ljust, men ej i direkt solljus',
-        'irriterande växtsaft'
-    ],
-    'garderobsblomma' => [
-        'vattna sparsamt',
-        'trivs ej i direkt solljus',
-        'starkt irriterande växtsaft',
-    ],
-    'elefantöra' => [
-        'låt jorden torka upp mellan vattningarna',
-        'trivs halvljust, undvik direkt sol',
-        'ogiftig',
-    ],
-    'svärmorstunga' => [
-        'vattna sällan',
-        'trivs både skuggigt och soligt, men växer bättre om den står ljust',
-        'irriterande växtsaft',
-    ],
+$killIt = [
+    'Ampellilja' => 'Tyvärr, det går nästan inte. Nästan. Du kommer nog på något sätt ska du se.',
+    'Fredskalla' => 'Utsätt den för kyla!',
+    'Kaktus' => 'Dränk den!',
+    'Porslinsblomma' => 'Tyvärr, du får bli kreativ! Kanske för mycket vatten?',
+    'Gullranka' => 'Dränk den!',
+    'Garderobsblomma' => 'Dränk den!',
+    'Elefantöra' => 'Låt den drunkna ...',
+    'Svärmorstunga' => 'Vem vet. Inte jag. Svårt är det.',
+];
+
+$plantList = [
+    'Ampellilja',
+    'Fredskalla',
+    'Kaktus',
+    'Porslinsblomma',
+    'Gullranka',
+    'Garderobsblomma',
+    'Elefantöra',
+    'Svärmorstunga',
 ];

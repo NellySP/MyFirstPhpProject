@@ -15,7 +15,8 @@
     <div class='menu'>
         <header>
             <div class='menu_item'>
-                <h1>Svårdödade växter för plantmördare</h1>
+                <h1>Svårdödade växter för avancerade plantmördare</h1>
+            </div>
         </header>
-    </div>
+
     </div>

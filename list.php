@@ -4,11 +4,13 @@
 
 require __DIR__ . '/data.php';
 
-$rand_val = array_rand($plants, 1);
-
-echo $plants[$rand_val];
+foreach ($plantList as $singlePlant);
 
 
 ?>
+
+<ul>
+    <li><?= $singlePlant ?></li>
+</ul>
 
 <?php require __DIR__ . '/footer.php'; ?>
