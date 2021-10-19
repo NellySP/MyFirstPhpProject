@@ -1,14 +1,46 @@
 <?php
 
 $plants = [
-    'Ampellilja',
-    'Fredskalla',
-    'Kaktus',
-    'Porslinsblomma',
-    'Gullranka',
-    'Garderobsblomma',
-    'Elefantöra',
-    'Svärmorstunga',
+    [
+        'name' => 'Ampellilja',
+        'image' => 'images/ampellilja.jpeg',
+        'latName' => 'Chlorophytum',
+    ],
+    [
+        'name' => 'Fredskalla',
+        'image' => 'images/fredskalla.jpeg',
+        'latName' => 'Spathiphyllum',
+    ],
+    [
+        'name' => 'Kaktus',
+        'image' => 'images/kaktusar.jpeg',
+        'latName' => 'Cactaceae',
+    ],
+    [
+        'name' => 'Porslinsblomma',
+        'image' => 'images/porslinsblomma.jpeg',
+        'latName' => 'Hoya carnosa',
+    ],
+    [
+        'name' => 'Gullranka',
+        'image' => 'images/gullranka.jpeg',
+        'latName' => 'Epipremnum aureum',
+    ],
+    [
+        'name' => 'Garderobsblomma',
+        'image' => 'images/garderobsblomma.jpeg',
+        'latName' => 'Zamioculcas zamiifolia',
+    ],
+    [
+        'name' => 'Elefantöra',
+        'image' => 'images/elefantöra.jpeg',
+        'latName' => 'Pilea peperomioides',
+    ],
+    [
+        'name' => 'Svärmorstunga',
+        'image' => 'images/svärmorstunga.jpeg',
+        'latName' => 'Sansevieria trifasciata',
+    ],
 ];
 
 $flowers = [
