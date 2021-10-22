@@ -6,9 +6,11 @@ require __DIR__ . '/data.php'; ?>
 <?php foreach ($plants as $plant) {
     $image = $plant['image'];
     $name = $plant['name'];
+    $latName = $plant['latName'];
 ?>
     <img src="<?php echo $image ?>"></img>
     <h3><?php echo $name ?></h3>
+    <h4><?php echo "$latName" ?></h4><br>
 <?php } ?>
 
 

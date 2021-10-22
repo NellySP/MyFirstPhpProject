@@ -20,7 +20,7 @@
 
                     <button><a href="index.php">Start</a></button>
                     <button><a href="overview.php">Alla växter</a></button>
-                    <button><a href="kill.php">Döda alla ...</a></button>
+                    <button><a href="safety.php">Säkerhet</a></button>
 
                 </nav>
             </div>

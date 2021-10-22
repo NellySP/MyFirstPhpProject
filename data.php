@@ -8,18 +8,22 @@ $plants = [
         'name' => 'Ampellilja',
         'image' => 'images/ampellilja.jpeg',
         'latName' => 'Chlorophytum',
-        'water' => 'vattna rikligt',
+        'water' => 'vattna rikligt, 1 - 2 ggr i veckan',
         'light' => 'trivs ljust till lätt skuggigt',
         'poison' => 'ej giftig',
+        'kill' => 'Tyvärr, det går nästan inte. Nästan. Du kommer nog på något sätt ska du se.',
+        'bloom' => false,
     ],
     [
         'id' => 1,
         'name' => 'Fredskalla',
         'image' => 'images/fredskalla.jpeg',
         'latName' => 'Spathiphyllum',
-        'water' => 'håll jorden fuktig',
+        'water' => 'håll jorden fuktig, men låt den inte stå i vatten',
         'light' => 'trivs både ljust och mörkt',
         'poison' => 'irriterande växtsaft',
+        'kill' => 'Utsätt den för kyla!',
+        'bloom' => true,
     ],
     [
         'id' => 2,
@@ -29,6 +33,8 @@ $plants = [
         'water' => 'vattna sällan',
         'light' => 'trivs ljust, klarar direkt solljus',
         'poison' => 'ogiftig men svårtuggad',
+        'kill' => 'Dränk den!',
+        'bloom' => false,
     ],
     [
         'id' => 3,
@@ -38,6 +44,8 @@ $plants = [
         'water' => 'fuktig jord vid blomning, annars vattna sparsamt',
         'light' => 'trivs ljust, men ej i direkt solljus i söderläge',
         'poison' => 'ogiftig',
+        'kill' => 'Tyvärr, du får bli kreativ!',
+        'bloom' => true,
     ],
     [
         'id' => 4,
@@ -47,6 +55,8 @@ $plants = [
         'water' => 'låt jorden torka mellan vattningar',
         'light' => 'mörkt till ljust, men ej i direkt solljus',
         'poison' => 'irriterande växtsaft',
+        'kill' => 'Dränk den!',
+        'bloom' => false,
     ],
     [
         'id' => 5,
@@ -56,6 +66,8 @@ $plants = [
         'water' => 'vattna sparsamt',
         'light' => 'trivs ej i direkt solljus',
         'poison' => 'starkt irriterande växtsaft',
+        'kill' => 'Dränk den!',
+        'bloom' => false,
     ],
     [
         'id' => 6,
@@ -65,6 +77,8 @@ $plants = [
         'water' => 'låt jorden torka upp mellan vattningarna',
         'light' => 'trivs halvljust, undvik direkt sol',
         'poison' => 'ogiftig',
+        'kill' => 'Låt den drunkna ...',
+        'bloom' => false,
     ],
     [
         'id' => 7,
@@ -74,6 +88,8 @@ $plants = [
         'water' => 'vattna sparsamt',
         'light' => 'trivs både skuggigt och soligt, växer bättre när den står ljust',
         'poison' => 'irriterande växtsaft',
+        'kill' => 'Vem vet. Inte jag. Svårt är det.',
+        'bloom' => false,
     ],
 ];
 
@@ -86,37 +102,4 @@ $flowers = [
     'Garderobsblomma' => 'kan blomma',
     'Elefantöra' => 'kan blomma',
     'Svärmorstunga' => 'blommar inte',
-];
-
-$killIt = [
-    'Ampellilja' => 'Tyvärr, det går nästan inte. Nästan. Du kommer nog på något sätt ska du se.',
-    'Fredskalla' => 'Utsätt den för kyla!',
-    'Kaktus' => 'Dränk den!',
-    'Porslinsblomma' => 'Tyvärr, du får bli kreativ! Kanske för mycket vatten?',
-    'Gullranka' => 'Dränk den!',
-    'Garderobsblomma' => 'Dränk den!',
-    'Elefantöra' => 'Låt den drunkna ...',
-    'Svärmorstunga' => 'Vem vet. Inte jag. Svårt är det.',
-];
-
-$plantList = [
-    'Ampellilja',
-    'Fredskalla',
-    'Kaktus',
-    'Porslinsblomma',
-    'Gullranka',
-    'Garderobsblomma',
-    'Elefantöra',
-    'Svärmorstunga',
-];
-
-$images = [
-    'images/svärmorstunga.jpeg',
-    'images/elefantöra.jpeg',
-    'images/garderobsblomma.jpeg',
-    'images/gullranka.jpeg',
-    'images/porslinsblomma.jpeg',
-    'images/kaktusar.jpeg',
-    'images/fredskalla.jpeg',
-    'images/ampellilja.jpeg',
 ];
