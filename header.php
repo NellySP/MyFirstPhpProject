@@ -15,7 +15,14 @@
     <div class='menu'>
         <header>
             <div class='menu_item'>
-                <h1>Svårdödade växter för avancerade plantmördare</h1>
+                <h1>Växtväljare</h1>
+                <nav>
+
+                    <button><a href="index.php">Start</a></button>
+                    <button><a href="overview.php">Alla växter</a></button>
+                    <button><a href="kill.php">Döda alla ...</a></button>
+
+                </nav>
             </div>
         </header>
 

@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 $plants = [
     [
-        'id' => '0',
+        'id' => 0,
         'name' => 'Ampellilja',
         'image' => 'images/ampellilja.jpeg',
         'latName' => 'Chlorophytum',
@@ -11,7 +13,7 @@ $plants = [
         'poison' => 'ej giftig',
     ],
     [
-        'id' => '1',
+        'id' => 1,
         'name' => 'Fredskalla',
         'image' => 'images/fredskalla.jpeg',
         'latName' => 'Spathiphyllum',
@@ -20,7 +22,7 @@ $plants = [
         'poison' => 'irriterande växtsaft',
     ],
     [
-        'id' => '2',
+        'id' => 2,
         'name' => 'Kaktus',
         'image' => 'images/kaktusar.jpeg',
         'latName' => 'Cactaceae',
@@ -29,7 +31,7 @@ $plants = [
         'poison' => 'ogiftig men svårtuggad',
     ],
     [
-        'id' => '3',
+        'id' => 3,
         'name' => 'Porslinsblomma',
         'image' => 'images/porslinsblomma.jpeg',
         'latName' => 'Hoya carnosa',
@@ -38,7 +40,7 @@ $plants = [
         'poison' => 'ogiftig',
     ],
     [
-        'id' => '4',
+        'id' => 4,
         'name' => 'Gullranka',
         'image' => 'images/gullranka.jpeg',
         'latName' => 'Epipremnum aureum',
@@ -47,7 +49,7 @@ $plants = [
         'poison' => 'irriterande växtsaft',
     ],
     [
-        'id' => '5',
+        'id' => 5,
         'name' => 'Garderobsblomma',
         'image' => 'images/garderobsblomma.jpeg',
         'latName' => 'Zamioculcas zamiifolia',
@@ -56,7 +58,7 @@ $plants = [
         'poison' => 'starkt irriterande växtsaft',
     ],
     [
-        'id' => '6',
+        'id' => 6,
         'name' => 'Elefantöra',
         'image' => 'images/elefantöra.jpeg',
         'latName' => 'Pilea peperomioides',
@@ -65,9 +67,9 @@ $plants = [
         'poison' => 'ogiftig',
     ],
     [
-        'id' => '7',
+        'id' => 7,
         'name' => 'Svärmorstunga',
-        'image' => 'images/svärmorstunga.jpeg',
+        'image' => 'images/svarmorstunga.jpeg',
         'latName' => 'Sansevieria trifasciata',
         'water' => 'vattna sparsamt',
         'light' => 'trivs både skuggigt och soligt, växer bättre när den står ljust',
@@ -106,4 +108,15 @@ $plantList = [
     'Garderobsblomma',
     'Elefantöra',
     'Svärmorstunga',
+];
+
+$images = [
+    'images/svärmorstunga.jpeg',
+    'images/elefantöra.jpeg',
+    'images/garderobsblomma.jpeg',
+    'images/gullranka.jpeg',
+    'images/porslinsblomma.jpeg',
+    'images/kaktusar.jpeg',
+    'images/fredskalla.jpeg',
+    'images/ampellilja.jpeg',
 ];

@@ -13,20 +13,21 @@ img {
   height: 400px;
   object-fit: cover;
   object-position: center;
+  border: 10px solid #719463;
 }
 
 footer {
   background-color: #87af77;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  height: 40px;
 }
 
 .menu {
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 105px;
   background-color: #87af77;
   align-items: center;
   justify-content: center;
@@ -38,12 +39,16 @@ footer {
   height: auto;
 }
 
+nav .button {
+  cursor: default;
+}
+
 button {
   background-color: #719463;
   transition: 0.5s ease;
   margin-bottom: 5px;
   border-radius: 5px;
-  border: 2px solid #5f7a54;
+  border: 3px solid #5f7a54;
   height: 25px;
 }
 

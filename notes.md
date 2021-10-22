@@ -1,6 +1,13 @@
 att göra:
 
--   skriv en funktion som returnerar random blomma med info vid knapptryck.
+LÖSNINGEN PÅ ALLA MINA PROBLEM!
+
+$rand_val = array_rand($plants);
+
+$plant = $plants[$rand_val];
+echo $plant['name'];
+echo $plant['image']; - här kan jag välja vilka värden jag vill eka ut! image måste dock ligga innanför image tagg.
+
 -   funktion som ekar växtinfo - en sån vill jag ha!
 -   Funktion som ekar dödsinfö - den ska dö!
 
@@ -86,3 +93,10 @@ $plantFacts = [
 'irriterande växtsaft',
 ],
 ];
+
+indexsidan innan ändring:
+
+<img src="<?= $plants[1]['image']; ?>">
+
+<h2><?= $plants[1]['name']; ?></h2>
+<h4><?= $plants[1]['latName']; ?></h4>
