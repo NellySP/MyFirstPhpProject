@@ -11,6 +11,8 @@ echo $plant['image']; - här kan jag välja vilka värden jag vill eka ut! image
 -   funktion som ekar växtinfo - en sån vill jag ha!
 -   Funktion som ekar dödsinfö - den ska dö!
 
+lösning? eka infon med hjälp av samma som innan (rand_array), lägg innanför divar som dols tills dess att man trycker på knapparna. skulle kunna fråga sofia hur hon gjort sina?
+
 function getrandomelement($array) {
   $pos=rand(0,sizeof($array)-1);
 $res=$array[$pos];

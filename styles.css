@@ -58,3 +58,19 @@ button:hover {
   background-color: #acda9a;
   box-shadow: #93bf82;
 }
+
+.myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}
+
+.kill {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  margin-top: 20px;
+  display: none;
+}

@@ -10,7 +10,7 @@ $plants = [
         'latName' => 'Chlorophytum',
         'water' => 'vattna rikligt, 1 - 2 ggr i veckan',
         'light' => 'trivs ljust till lätt skuggigt',
-        'poison' => 'ej giftig',
+        'poison' => 'ogiftig',
         'kill' => 'Tyvärr, det går nästan inte. Nästan. Du kommer nog på något sätt ska du se.',
         'bloom' => false,
     ],
@@ -72,7 +72,7 @@ $plants = [
     [
         'id' => 6,
         'name' => 'Elefantöra',
-        'image' => 'images/elefantöra.jpeg',
+        'image' => 'images/elefantora.jpeg',
         'latName' => 'Pilea peperomioides',
         'water' => 'låt jorden torka upp mellan vattningarna',
         'light' => 'trivs halvljust, undvik direkt sol',
@@ -93,13 +93,13 @@ $plants = [
     ],
 ];
 
-$flowers = [
-    'Ampellilja' => 'blommar',
-    'Fredskalla' => 'blommar',
-    'Kaktus' => 'kan blomma',
-    'Porslinsblomma' => 'blommar',
-    'Gullranka' => 'blommar inte',
-    'Garderobsblomma' => 'kan blomma',
-    'Elefantöra' => 'kan blomma',
-    'Svärmorstunga' => 'blommar inte',
-];
+// $flowers = [
+//     'Ampellilja' => 'blommar',
+//     'Fredskalla' => 'blommar',
+//     'Kaktus' => 'kan blomma',
+//     'Porslinsblomma' => 'blommar',
+//     'Gullranka' => 'blommar inte',
+//     'Garderobsblomma' => 'kan blomma',
+//     'Elefantöra' => 'kan blomma',
+//     'Svärmorstunga' => 'blommar inte',
+// ];
