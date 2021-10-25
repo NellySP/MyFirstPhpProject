@@ -1,4 +1,7 @@
-<?php __DIR__ . '/header.php'; ?>
+<?php
+require __DIR__ . '/data.php';
+require __DIR__ . '/functions.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -15,12 +18,13 @@
     <div class='menu'>
         <header>
             <div class='menu_item'>
-                <h1>Växtväljare</h1>
+                <h1><?php echo getTitle(); ?></h1>
                 <nav>
 
                     <button><a href="index.php">Start</a></button>
                     <button><a href="overview.php">Alla växter</a></button>
                     <button><a href="safety.php">Säkerhet</a></button>
+                    <button><a href="test.php">test</a></button>
 
                 </nav>
             </div>
