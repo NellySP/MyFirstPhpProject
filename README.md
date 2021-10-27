@@ -1,4 +1,4 @@
-INSERT MANDATORY GIF
+<iframe src="https://giphy.com/embed/kfKl7x4Mf4Htt6AJdX" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/plant-staying-alive-stayin-kfKl7x4Mf4Htt6AJdX">via GIPHY</a></p>
 
 # Plant generator
 
