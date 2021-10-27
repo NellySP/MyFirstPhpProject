@@ -2,7 +2,7 @@
 
 </div>
 <footer>
-    <p>Växtväljare <?= date("Y"); ?></p>
+    <p>Växtgenerator <?= date("Y"); ?></p>
 </footer>
 </div>
 <script src="javascript.js"></script>

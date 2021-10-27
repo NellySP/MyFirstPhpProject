@@ -45,7 +45,6 @@ footer {
   background-color: #87af77;
   bottom: 0;
   width: 100%;
-  /* height: 40px; */
   position: absolute;
   height: 2.5rem;
 }
@@ -60,7 +59,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-bottom: 5%;
+  padding-bottom: 5px;
 }
 
 .menu_item .h1 {
@@ -92,6 +91,15 @@ button {
 button:hover {
   background-color: #acda9a;
   box-shadow: #93bf82;
+}
+
+.index_text_container {
+  display: flex;
+  justify-content: center;
+}
+
+.index_item {
+  width: 70%;
 }
 
 .myDIV {

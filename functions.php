@@ -11,7 +11,7 @@ $plant = $plants[$rand_val];
 
 // funktion som hämtar titeln till min hemsida(hemmasnickrad)
 
-function getTitle($title = 'Växtväljaren')
+function getTitle($title = 'Växtgenerator 2021')
 {
     return $title;
 }
