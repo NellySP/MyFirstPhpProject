@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+$title = 'Växtgenerator';
 $overviewText = 'Jaså, du vill ha en av varje du! Här har du dem!';
 $safetyText = 'Jag vet vad du tänker. Finns det någon risk att växterna kan ta död på mig eller mitt husdjur? Hur stor skada kan de åsamka? Här finner du svaren.';
 $lightFacts = 'Var vill den stå?';

@@ -1,3 +1,0 @@
-<?php
-
-$title = 'Växtgenerator';
