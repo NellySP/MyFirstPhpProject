@@ -1,4 +1,4 @@
-https://media.giphy.com/media/kfKl7x4Mf4Htt6AJdX/giphy.gif
+!https://media.giphy.com/media/kfKl7x4Mf4Htt6AJdX/giphy.gif
 
 # Plant generator
 
