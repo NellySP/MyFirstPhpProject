@@ -1,26 +1,6 @@
 <?php require __DIR__ . '/header.php';
 ?>
 
-<script>
-    function myFunction() {
-        var x = document.getElementById('myDIV');
-        if (x.style.display === 'block') {
-            x.style.display = 'none';
-        } else {
-            x.style.display = 'block';
-        }
-    }
-
-    function dieFunction() {
-        var x = document.getElementById('kill');
-        if (x.style.display === 'block') {
-            x.style.display = 'none';
-        } else {
-            x.style.display = 'block';
-        }
-    }
-</script>
-
 <div class="butt_container">
 
     <button onclick="myFunction('myDIV')">En sån vill jag ha!</button>
@@ -39,6 +19,12 @@
 
 <div hidden id="kill">
     <p><?php echo $plant['kill']; ?></p>
+</div>
+
+<button onclick="bloomFunction('bloom')">Blommar den? </button>
+
+<div hidden id="bloom">
+    <p><?php echo ifTrue($plant); ?></p>
 </div>
 
 <?php require __DIR__ . '/footer.php'; ?>
