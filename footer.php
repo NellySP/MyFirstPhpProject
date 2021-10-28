@@ -5,7 +5,7 @@
     <p>Växtgenerator <?= date("Y"); ?></p>
 </footer>
 </div>
-<script src="javascript.js"></script>
+<script src="/javascript.js"></script>
 </body>
 
 </html>

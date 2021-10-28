@@ -13,7 +13,7 @@ require __DIR__ . '/functions.php';
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/styles.css">
 
 </head>
 
@@ -26,9 +26,9 @@ require __DIR__ . '/functions.php';
                         <h1><?php echo getTitle(); ?></h1>
                         <nav>
 
-                            <button><a href="index.php">Start</a></button>
-                            <button><a href="overview.php">Alla växter</a></button>
-                            <button><a href="safety.php">Säkerhet</a></button>
+                            <button><a href="/index.php">Start</a></button>
+                            <button><a href="/overview.php">Alla växter</a></button>
+                            <button><a href="/safety.php">Säkerhet</a></button>
 
                         </nav>
                     </div>
