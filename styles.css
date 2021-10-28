@@ -49,6 +49,10 @@ footer {
   height: 2.5rem;
 }
 
+footer .p {
+  padding-bottom: 5px;
+}
+
 header {
   width: 100%;
 }
