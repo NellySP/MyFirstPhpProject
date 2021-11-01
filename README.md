@@ -27,4 +27,4 @@ Code review written by [Jane Doh](https://github.com/username).
 Tested by the following people:
 
 1. Emma Hansson
-2. 
+2. Sofia Dersén
