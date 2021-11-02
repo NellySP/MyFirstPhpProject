@@ -2,7 +2,7 @@
 
 # Plant generator
 
-This project is a sort of plant generator that can help people to chose a plant they can try not to kill. The plants are all simple to care for and should be easy not to kill to fast. The project is the first real project to be uploaded on github and it consists of php (arrays, loops, variables), css, html and a just a little bit of javascript. You can look at the project [here] (https://sparvare.com/MyFirstPhpProject/index.php)
+This project is a sort of plant generator that can help people to chose a plant they can try not to kill. The plants are all simple to care for and should be easy not to kill to fast. The project is the first real project to be uploaded on github and it consists of php (arrays, loops, variables), css, html and a just a little bit of javascript. You can look at the project [here](https://sparvare.com/MyFirstPhpProject/index.php).
 
 
 
